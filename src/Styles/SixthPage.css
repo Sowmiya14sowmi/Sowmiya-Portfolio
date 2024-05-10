@@ -1,0 +1,56 @@
+.sixthPage{
+    background-color: #424874;
+    color: #F9F9F9;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60vh !important;
+    align-content: center; 
+    /* align-items: center;
+    justify-content: center; */
+}
+.sixthPage-left,.sixthPage-right{
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+
+.linkIcon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+.sixthPage-right  > div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.sixthPage-right >  div > h3{
+    margin: 0;
+}
+.resume{
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    color: #424874;
+    background-color:#F9F9F9;
+    align-items: center;
+    display: flex;
+    padding: 10px 15px 10px 15px;
+
+}
+.resume > img{
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+}
+
+@media screen and (max-width: 805px) {
+    .sixthPage{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .sixthPage-left  > h1{
+        font-size: 35px;
+    }
+}

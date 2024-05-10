@@ -1,0 +1,14 @@
+.websiteContainer{
+  color: #424874;
+}
+h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 44px;
+}
+h4, input{
+  font-family: "DM Sans", sans-serif;
+  font-size: 15px;
+}
+p{
+  font-family: "DM Sans", sans-serif;
+}

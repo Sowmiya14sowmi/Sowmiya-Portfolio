@@ -1,0 +1,96 @@
+.secondPage{
+    height: 80vh !important;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #D5C0DD !important;
+}
+.secondPage-center{
+    display: flex;
+    align-items: center;
+    justify-content: right;   
+}
+
+.secondPage-center >  div{
+    width: 50%;
+    /* border: 1px solid salmon !important; */
+    padding: 50px;
+}
+
+.animate-left-to-right {
+  animation: slideLeftToRight 2s ease backwards;
+}
+
+@keyframes slideLeftToRight {
+  from {
+    transform: translateX(40%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.secondPage-center > div > h1{
+    /* position: relative; */
+    /* display: inline-block; */
+    text-align: center;
+}
+.secondPage-center > div > h1::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px; 
+    /* width: 0; */
+    background-color: #424874; 
+    animation: underline-scroll 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes underline-scroll {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* width: 100%; */
+    }
+}
+
+.secondPage-right{
+    display: flex;
+    align-items: center;
+    background-color: #F9F9F9;
+    justify-content: right;
+}
+.secondPage-right{
+    background-color: #D5C0DD;
+}
+.secondPage-right > img{
+    height: 80vh;
+    width: auto;
+}
+
+@media screen and (max-width: 805px) {
+    .secondPage{
+        display: grid;
+        grid-template-columns: auto;
+        height: 50vh !important;
+    }
+    .secondPage-right {
+       display: none;
+    }
+    .secondPage-center{
+
+        justify-content: center;
+    }
+    .secondPage-center > div > p{
+        text-align: justify;
+   
+    }
+    .secondPage-center > div{
+        width: 70%;
+        display: grid;
+        text-align: center;
+    }
+}

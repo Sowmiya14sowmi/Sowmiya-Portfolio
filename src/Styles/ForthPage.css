@@ -1,0 +1,31 @@
+.forthPage{
+    height: 70vh;
+    display:  grid;
+    grid-template-columns: 50% 50%;
+    /* grid-template-rows: 50%; */
+    background-color: #E1AFD1;
+    align-items: center;
+}
+.forthPage > div > h1{
+    text-align: center;
+}
+.forthPage-right > div > p {
+    background-color: #FFE6E6;
+    border-top-left-radius: 10px;
+    padding: 20px;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.forthPage-left-bottom > img{
+height: 150px;
+}
+
+@media screen and (max-width: 805px) {
+    .forthPage{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .forthPage-right{
+        padding: 0px 50px 0px 50px;
+    }
+}
