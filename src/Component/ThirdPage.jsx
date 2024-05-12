@@ -27,7 +27,7 @@ function ThirdPage(){
           </div>
           <div>
             <h2>Junior Software Developer</h2>
-            <h5>Digisquares Technologies Private Limited</h5>
+            <h5><a href='https://www.digisquares.com/'>Digisquares Technologies Private Limited</a></h5>
             <p><img src={locationIcon} alt='img'></img>Coimbatore, TN</p>
             <span>01/2021 - 04/2022</span>
             <p>
@@ -42,13 +42,13 @@ function ThirdPage(){
           </div>
           <div>
             <h2>Internship</h2>
-            <h5>Knila IT Solutions</h5>
+            <h5><a href='https://knila.com/'>Knila IT Solutions</a></h5>
             <p><img src={locationIcon} alt='img'></img> Coimbatore, TN</p>
             <span>2020 - 2020</span>
             <p>
             Completed projects involving Node.js, MySQL, and APIs, focusing on REST APIs and CRUD operations.
             </p>
-            <h5>Forge - KCT</h5>
+            <h5><a href='https://www.forgeforward.in/'>Forge - KCT</a></h5>
             <p><img src={locationIcon} alt='img'></img> Coimbatore, TN</p>
             <span>2020 - 2020</span>
             <p>

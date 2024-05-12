@@ -3,14 +3,15 @@ import '../Styles/SixthPage.css'
 import phoneIcon from '../images/phoneIcon.png'
 import emailIcon from '../images/emailIcon.png'
 import instagramIcon from '../images/instagramIcon.png'
-import linkedinIcon from '../images/linkedinIcon.png'
+// import linkedinIcon from '../images/linkedinIcon.png'
 import git from '../images/githubIcon.png'
 import websiteIcon from '../images/websiteIcon.png'
 import downloadIcon from '../images/downloadIcon.png'
 
 function SixthPage(){
     const handleDownload = () => {
-      const pdfFilePath = "/Resume.pdf";
+      const pdfFilePath = require('../images/Sowmiya-Software Developer.pdf');
+      console.log(pdfFilePath)
         fetch(pdfFilePath)
     .then(response => {
       if (!response.ok) {
@@ -58,12 +59,12 @@ function SixthPage(){
            <img className='linkIcon' src={instagramIcon} alt='img'></img>
            </a>
           {/* <a href='https://sowmiya14sowmi.github.io/SowmiyaPortfolio/'>  */}
-          <img className='linkIcon' src={linkedinIcon} alt='img'></img>
+          {/* <img className='linkIcon' src={linkedinIcon} alt='img'></img> */}
           {/* </a> */}
-          {/* <a href='https://sowmiya14sowmi.github.io/SowmiyaPortfolio/'> */}
+          <a href='https://github.com/Sowmiya14sowmi'>
             <img className='linkIcon' src={git} alt='img'></img>
-            {/* </a> */}
-         <a href='https://sowmiya14sowmi.github.io/SowmiyaPortfolio/'><img className='linkIcon' src={websiteIcon} alt='img'></img></a>
+            </a>
+         <a href='https://sowmiya14sowmi.github.io/Sowmiya-Software-Developer/'><img className='linkIcon' src={websiteIcon} alt='img'></img></a>
           </div>
           <div>
             <button onClick={handleDownload} className='resume'><i class="fa fa-home" /> <img src={downloadIcon} alt='img'></img> Download My Resume</button>
