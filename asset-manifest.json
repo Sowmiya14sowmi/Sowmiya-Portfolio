@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Sowmiya-Software-Developer/static/css/main.809e65fe.css",
-    "main.js": "/Sowmiya-Software-Developer/static/js/main.58743634.js",
+    "main.js": "/Sowmiya-Software-Developer/static/js/main.c2944100.js",
     "static/js/453.1407b060.chunk.js": "/Sowmiya-Software-Developer/static/js/453.1407b060.chunk.js",
+    "static/media/Sowmiya-Software Developer.pdf": "/Sowmiya-Software-Developer/static/media/Sowmiya-Software Developer.274b7a09567ec78cc37c.pdf",
     "static/media/secondPageImage1.png": "/Sowmiya-Software-Developer/static/media/secondPageImage1.8d2bd1ef694fc436fa5d.png",
     "static/media/firstPageImage2.png": "/Sowmiya-Software-Developer/static/media/firstPageImage2.cb2c4c5d9d47c7159f64.png",
     "static/media/firstPageImage1.png": "/Sowmiya-Software-Developer/static/media/firstPageImage1.086a52b3359614b6f3d0.png",
@@ -12,11 +13,11 @@
     "static/media/websiteIcon.png": "/Sowmiya-Software-Developer/static/media/websiteIcon.19da090128581f8b4776.png",
     "index.html": "/Sowmiya-Software-Developer/index.html",
     "main.809e65fe.css.map": "/Sowmiya-Software-Developer/static/css/main.809e65fe.css.map",
-    "main.58743634.js.map": "/Sowmiya-Software-Developer/static/js/main.58743634.js.map",
+    "main.c2944100.js.map": "/Sowmiya-Software-Developer/static/js/main.c2944100.js.map",
     "453.1407b060.chunk.js.map": "/Sowmiya-Software-Developer/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.809e65fe.css",
-    "static/js/main.58743634.js"
+    "static/js/main.c2944100.js"
   ]
 }
