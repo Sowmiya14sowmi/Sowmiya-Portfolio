@@ -64,7 +64,7 @@ function SixthPage(){
           <a href='https://github.com/Sowmiya14sowmi'>
             <img className='linkIcon' src={git} alt='img'></img>
             </a>
-         <a href='https://sowmiya14sowmi.github.io/Sowmiya-Software-Developer/'><img className='linkIcon' src={websiteIcon} alt='img'></img></a>
+         <a href='https://sowmiya14sowmi.github.io/Sowmiya-Portfolio/'><img className='linkIcon' src={websiteIcon} alt='img'></img></a>
           </div>
           <div>
             <button onClick={handleDownload} className='resume'><i class="fa fa-home" /> <img src={downloadIcon} alt='img'></img> Download My Resume</button>
