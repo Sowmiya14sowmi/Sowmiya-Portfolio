@@ -19,7 +19,11 @@
 .animate-left-to-right {
   animation: slideLeftToRight 2s ease backwards;
 }
-
+.paragraphs{
+    text-align: justify;
+    line-height: 3vh;
+    font-size: large;
+}
 @keyframes slideLeftToRight {
   from {
     transform: translateX(40%);

@@ -15,12 +15,12 @@ function FifthPage(){
         </div>
         <div>
         <h3>CHERAN COLLEGE FOR WOMEN, TIRUPPUR, TN</h3>
-        <span>2018 - 2020</span>
+        <span>2017 - 2020</span>
         <p>BSC (Information Technology)</p>
         </div>
         <div>
         <h3>GOVERNMENT HIGHER SECONDRY SCHOOL, TIRUPPUR TN</h3>
-        <span>2016 - 2018</span>
+        <span>2016 - 2017</span>
         <p>Higher Secondary</p>
         </div>
       </div>

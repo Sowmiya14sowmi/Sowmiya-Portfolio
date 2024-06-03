@@ -37,7 +37,9 @@ function SecondPage(){
         <h1>
             About Me
         </h1>
-        <p>I am a diligent software developer with 3 years of experience in web applications. I'm eager to join your crew to build out-of-the-box solutions for regional clients. I am skilled in developing plans, managing projects, and user documentation.</p>
+        <p className='paragraphs'>
+        With 3 years of experience in the Software Development field, I am a dedicated software developer committed to crafting efficient and user-friendly solutions through application development. I am eager to leverage my problem-solving skills and collaborate effectively to deliver high-quality results.
+        </p>
         </div>
         </div>
         <div className='secondPage-right'>
